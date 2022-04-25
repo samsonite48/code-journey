@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+html {
+    margin: 0;
+}
+
+.layer1 {
+    background-color: #1f2937;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(26, 30, 37, 0.9);
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    color: white;
+    padding: 10px;
+
+}
+
+.lefthead {
+    width: 700px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.righthead {
+    width: 500px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 40px;
+    
+}
+
+.ahead {
+    margin-left: 30px;
+}
+
+
+.layer1content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+    color: white;
+}
+
+.layer1left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    padding: 70px;
+    margin-left: 100px;
+}
+.contact {
+    width: 150px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #3882f6;
+    color: white;
+    border-color: #3882f6;
+    font-size: 20px;
+    border-radius: 10px;
+   
+}
+
+.welcome {
+    width: 800px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    
+}
+
+.description {
+    font-size: 20px;
+    width: 600px;
+}
+
+img.sunset {
+    width: 720px;
+    margin-left: 30px; margin-right: 120px;
+    margin-top: 20px;
+}
+
+.sunsource {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-right: 80px;
+}
+
+.layer2 {
+    height: 700px;
+    background-color: black;
+}
+
+.logstitle {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top:  70px;
+    font-size: 70px;
+}
+.logart {
+    text-align:center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.layer2content {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-bottom: 200px; margin-top: 80px;
+}
+
+img.first, img.second, img.third, img.fourth {
+    width: 250px; height: 250px;
+    margin-bottom: 10px;
+}
+
+.week1, .week2, .week3, .week4, .logstitle, .logart {
+    text-align: center;
+    color: lightsteelblue;
+}
+
+.topcontain {
+    text-align: center;
+    justify-content: center;
+}
+
+.week1, .week2, .week3, .week4 {
+    font-size: 20px;
+}
+
+.layer3 {
+    background-color: #e5e7eb;
+    height: 600px;
+}
+
+.layer3content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-left: 500px; margin-right: 500px
+}
+
+.quote, .quoteby {
+    font-size: 36px;
+}
+
+.quote {
+    width: 650px; height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.quoteby {
+    margin-left: 180px;
+}
+
+.layer4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.layer4content {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px;
+    height: 200px;
+    width: 800px;
+}
+
+.lay4left {
+    margin-left: 100px;
+    color: white;
+}
+
+.click {
+    font-size: 35px;
+}
+
+.clickdisc {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.lay4right {
+    margin-right: 100px;
+}
+
+.yeah {
+    font-size: 25px; width: 130px; height: 55px;
+    background-color: #3882f6; border-color: white; color: white;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgba(26, 30, 37, 0.9);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.footauthor {
+    color: white;
+}
